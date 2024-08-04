@@ -9,7 +9,7 @@ def toon_boekenlijst():
         reader = csv.reader(csvfile)
         next(reader)
         for row in reader:
-            titel, schrijver = row
-            print(f"{titel} van {schrijver}")
+            titel, schrijver, aantal_paginas = row
+            print(f"{titel} van {schrijver} met {aantal_paginas} pagina's")
 
 main()
