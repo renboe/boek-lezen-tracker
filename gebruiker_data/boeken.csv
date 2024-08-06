@@ -1,2 +1,2 @@
-titel, schrijver,aantal_paginas
-1984,George Orwell,328
+title,author,page_count,isbn,publisher,publication_year,publication_month,publication_day,genre,notes,rating,rating_description
+1984,George Orwell,328,1234,Secker & Warburg,1949,6,8,dystopian,literally 1984,5,eh
